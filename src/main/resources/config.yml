@@ -1,0 +1,21 @@
+
+# Settings related to the GitHub updater module
+update:
+  organization: 'minepack'
+  repository: 'resourcepack-wiki'
+  branch: 'main'
+  
+# Settings related to the wiki website generator
+generator:
+  source: data/source
+  destination: data/generated
+  
+  # Paths to pebble page templates from the source folder
+  templates:
+    error: 'template/error.html'
+    post: 'template/post.html'
+    group: 'template/group.html'
+    
+# Settings related to the website server
+server:
+  hello: true

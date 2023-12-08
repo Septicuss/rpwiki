@@ -1,0 +1,10 @@
+# Eclipse IDE files
+.project
+.classpath
+.settings/
+
+# Maven target folder
+target/
+
+# Custom data directory
+data/
